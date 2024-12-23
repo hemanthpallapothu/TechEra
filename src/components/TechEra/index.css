@@ -1,0 +1,54 @@
+.bg-container {
+  background-color: #f1f5f9;
+  height: 100vh;
+  background-size: cover;
+}
+
+.in-progress-view {
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-title {
+  color: #1e293b;
+  font-size: 20px;
+  font-family: Roboto;
+}
+
+.not-found {
+  height: 80vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.not-found-img {
+  height: 500px;
+  width: 500px;
+}
+
+.retry-btn {
+  background-color: #4656a1;
+  height: 35px;
+  width: 70px;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.techs-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}

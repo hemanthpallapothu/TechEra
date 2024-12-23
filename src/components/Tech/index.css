@@ -1,0 +1,17 @@
+.tech-card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tech-img {
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+
+.tech-name {
+  color: #1e293b;
+  font-family: roboto;
+  font-size: 20px;
+}
